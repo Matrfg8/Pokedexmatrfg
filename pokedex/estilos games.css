@@ -1,0 +1,12 @@
+h1{
+    text-align: center;
+    color: brown;
+}
+h2,p{
+    margin-top: 10px;
+    margin-left: 5%;
+}
+img{
+    margin-top: 10px;
+    margin-left: 3%;
+}

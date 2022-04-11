@@ -1,0 +1,58 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos formulario.css"
+</head>
+<body>
+    <script lang="JavaScript">
+
+    </script>
+    <h2> Formulario que pide datos personales </h2>
+    <p>Rellena los campos con tus datos personales</p>
+    <p>Tus datos serán tratados según la Ley de Protección de Datos</p>
+    <form style="color: rgb(52, 88, 15);">
+        <!-- Caja de texto corto -->
+        Introduce tu nombre de usuario:<br>
+        <input type="text"><br>
+
+        <!-- Introducir contraseña -->
+        Escribe tu contraseña:<br>
+        <input type="password"> <br>
+
+        <!-- Caja de texto largo -->
+        Explica tus intereses:<br>
+        <textarea rows="5" cols="30">Quiero mirar el merchandising para...</textarea><br>
+
+        <!--Lista de chequeo-->
+        Elige tus prendas favoritas:<br>
+        <input type="checkbox" name="deporte">camisetas</input><br>
+        <input type="checkbox" name="deporte">pantalones</input><br>
+        <input type="checkbox" name="deporte">sudaderas</input><br>
+        <input type="checkbox" name="deporte">gorras</input><br>
+
+        <!--Botón redondo de selección única-->
+        Elige tu género:<br>
+        <input type="radio" name="sexo">Mujer</input><br>
+        <input type="radio" name="sexo">Hombre</input><br>
+        <input type="radio" name="sexo">Otro</input><br>
+        
+        <!--Desplegable de selección única-->
+        Elige tu objetivo principal:<br>
+        <select name="objetivo" id="">
+            <option value="">Informarme</option><br>
+            <option value="">Comprar</option><br>
+            <option value="">Solo mirar</option><br>
+        </select><br>
+        
+        <!--Fecha del calendario-->
+        Introduce tu fecha de nacimiento
+        <h6>(Debes ser mayor de edad si lo que deseas es comprar)</h6>
+        <input type="date"><br>
+
+        <br><input type="button" value="Aceptar" onclick="location.href='Merchandising.html'">
+    </form>
+</body>
+</html>
